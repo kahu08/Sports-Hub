@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+.fa {
+    color: yellow;
+}
+
 #heading {
     font-size: 155px;
     font-weight: bold;
@@ -10,8 +14,36 @@ body {
     padding-top: 15%;
 }
 
+.sportsLogos {
+    text-align: center;
+}
+
 #footer {
-    color: yellow;
+    color: silver;
+}
+
+#baseball {
+    height: 3%;
+    width: 3%;
+    padding-left: 10px;
+}
+
+#basketball {
+    height: 3%;
+    width: 3%;
+    padding-left: 10px;
+}
+
+#rugby {
+    height: 3%;
+    width: 3%;
+    padding-left: 10px;
+}
+
+#tennis {
+    height: 3%;
+    width: 3%;
+    padding-left: 10px;
 }
 
 
