@@ -1,5 +1,7 @@
 body {
-    background-color: black;
+    background-image: url(../images/home.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .fa {
@@ -11,7 +13,7 @@ body {
     font-weight: bold;
     color: yellow;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 .sportsLogos {
@@ -20,6 +22,7 @@ body {
 
 #footer {
     color: silver;
+    padding-top: 15px;
 }
 
 #baseball {
@@ -108,7 +111,8 @@ body {
 
 /* When you mouse over the navigation links, change their color */
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
     color: #f1f1f1;
 }
 
@@ -136,6 +140,11 @@ body {
     }
 }
 
+.footer {
+    margin-top: 8%;
+}
+
 #footer {
-    padding-top: 9%;
+    color: #ffff00;
+    padding-top: 0%;
 }

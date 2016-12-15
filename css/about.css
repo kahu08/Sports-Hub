@@ -1,0 +1,59 @@
+    body {
+        background-color: yellow;
+    }
+    
+    .navbar-default {
+        background-color: #080808;
+        border-color: #e7e7e7;
+        border-color: black;
+        margin: 0;
+    }
+    /*
+.spacing-links {
+    padding-left: 10px;
+}
+*/
+    
+    .nav navbar-nav:hover {
+        color: yellow;
+    }
+    
+    .navbar-nav>li {
+        float: left;
+    }
+    
+    .stuff {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    #top {
+        float: right;
+        border: 50px;
+        margin-left: 50px;
+        padding-top: 150px;
+    }
+    
+    #heading {
+        font-size: 155px;
+        font-style: oblique;
+        font-size: bold;
+        color: black;
+        text-align: center;
+    }
+    
+    #footer {
+        color: black;
+    }
+    
+    .pages {
+        font-family: sans-serif;
+        font-weight: bold;
+        color: black;
+        padding-top: 130px;
+    }

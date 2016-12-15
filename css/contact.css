@@ -4,17 +4,57 @@ body {
     font-size: 15px;
 }
 
-.lines {
-    text-align: center;
-    padding-top: 15%;
+
+/*navbar*/
+
+.body-text {
+    color: #ffff00;
+    font-size: 20px;
 }
 
-.social {
-    position: absolute;
-    width: 100%;
-    top: 50%;
+.navbar-default {
+    background-color: #080808;
+    border-color: #e7e7e7;
+    border-color: black;
+}
+
+
+/*
+.spacing-links {
+    padding-left: 10px;
+}
+*/
+
+.nav navbar-nav:hover {
+    color: yellow;
+}
+
+.navbar-nav>li {
+    float: left;
+}
+
+.lines {
     text-align: center;
-    transform: translateY(-50%);
+    /*padding-top: 5%;*/
+    font-family: 'Aref Ruqaa';
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.lines a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.mapping {
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 35%;
+}
+
+#map {
+    padding-left: 8%;
+    margin-bottom: 10%
 }
 
 .social .link {
@@ -24,7 +64,7 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    /*border: 2px dashed white;*/
+    border: 2px dashed white;
     background-clip: content-box;
     padding: 10px;
     transition: .5s;
