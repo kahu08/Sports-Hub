@@ -7,9 +7,9 @@ There is also a gallery section where people are able to see past events.
 A contact section is also offered where people can get in touch with the team managers.
 
 #Languages
-+HTML
-+CSS
-+JAVASCRIPT
+1.HTML
+2.CSS
+3.JAVASCRIPT
 
 #Collaborators
 Sotonye Ogolo
