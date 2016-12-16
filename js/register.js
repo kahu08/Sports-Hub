@@ -6,8 +6,15 @@ function Form(category, tournament, team, email, contact, fee) {
     this.contact = contact;
     this.fee = fee;
 };
+
+function Payment(fee) {
+    this.fee = fee;
+}
 Form.prototype.registry = function () {
-    return this.category + "||" + this.tournament + "||" + this.teamName + "||" + this.email + "||" + this.contact + "||" + this.fee
+    return "Registered for:" + this.category + "," + this.tournament + "," + this.teamName + "," + this.email + "," + this.contact + "," + this.fee
+}
+Payment.prototype.payment = function () {
+    return "paid via MPesa--" + "ksh." + this.fee;
 }
 $(document).ready(function () {
     $(".popup").hide();
@@ -48,6 +55,14 @@ $(document).ready(function () {
         var inputtedContacts = $("input#contacts").val();
         var inputtedFee = $("input#fee").val();
         var newForm = new Form(inputtedSelectcategory, inputtedTournament, inputeddTeamname, inputtedEmail, inputtedContacts, inputtedFee);
-        $(".ticket-team-name").append("<li>" + newForm.registry() + "</li")
+        $(".ticket-team-name").append("<li>" + newForm.registry() + "</li");
     });
+    $(".pay").click(function (e) {
+        e.preventDefault();
+        var inputtedFee = $("input#fee").val();
+        var newPayment = new Payment(inputtedFee);
+        //        $(".pay").click(function () {
+        $(".ticket-team-name").append("<li>" + newPayment.payment() + "</li");
+    });
+    //        console.log(newPayment.payment());
 });
