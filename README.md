@@ -15,8 +15,8 @@ A contact section is also offered where people can get in touch with the team ma
 
 #### Collaborators
 
-Sotonye Ogolo
-Owen Kamau
-Simon Kathembe
-Peter Kahurani
+* Sotonye Ogolo
+* Owen Kamau
+* Simon Kathembe
+* Peter Kahurani
 
